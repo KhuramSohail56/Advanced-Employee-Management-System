@@ -1,0 +1,16 @@
+/*CREATE TABLE Employees (
+EmpID NUMBER PRIMARY KEY, 
+Name VARCHAR2(50), 
+Gender VARCHAR2(10), 
+Department VARCHAR2(50),
+Salary NUMBER,
+Contact VARCHAR2(20) )
+CREATE TABLE USERS (
+    Username VARCHAR2(50) PRIMARY KEY,
+    Password VARCHAR2(50) NOT NULL,
+    Role VARCHAR2(10) CHECK (Role IN ('ADMIN', 'USER'))
+);
+INSERT INTO USERS VALUES ('admin', 'admin123', 'ADMIN');
+INSERT INTO USERS VALUES ('user1', 'user123', 'USER');
+COMMIT;*/
+SELECT * FROM Employees;
